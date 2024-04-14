@@ -1,0 +1,15 @@
+{
+  "name": "webrtc",
+  "version": "1",
+  "description": "WebRTC with nodejs and react",
+  "main": "server/index",
+  "repository": "https://github.com/Sonawap/webrtc.git",
+  "author": "Sonawap <paulsola79.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "cd ./server && yarn",
+    "postinstall": "cd ./client && yarn",
+    "startServer": "PROD=true node server.js",
+    "startClient": "cd ./client && yarn start"
+  }
+}
