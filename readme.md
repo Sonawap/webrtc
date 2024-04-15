@@ -13,7 +13,8 @@ To run the app, follow these steps:
 2. Start the application:
 
     ```
-    yarn start
+    yarn startServer
+    yarn startClient
     ```
 
 This will install all the dependencies and start the app.
